@@ -32,7 +32,7 @@
       <p>Colombia - Bogota</p>
     </div>
     <div class="container_main">
-      <h2>
+      <h2 id="subjetTitle">
         RE: Invitación para unirse a un proyecto de desarrollo de videojuegos
       </h2>
       <br>
@@ -93,21 +93,30 @@
     <br>
     <br>
     <div id="particles-js">
-    <div class="container_formulario">
-      <p> Deje aquí alguna duda o sugerencia</p>
-      <form>
-        <label for="nombre">Ingrese su nombre: </label>
-        <input type="text" name="nombre" id="nombre" /><br>
-        <label for="correo">Ingrese su correo: </label>
-        <input type="text" name="correo" id="correo" /><br>
-        <label for="texto">Responda aqui </label>
-        <input type="textarea" name="texto" id="texto" /><br>
-      </form>
+      <div class="container_formulario">
+        <p> Deje aquí alguna duda o sugerencia</p>
+        <form>
+          <label for="nombre">Ingrese su nombre: </label>
+          <input type="text" name="nombre" id="nombre" /><br>
+          <label for="correo">Ingrese su correo: </label>
+          <input type="text" name="correo" id="correo" /><br>
+          <label for="texto">Responda aqui </label>
+          <input type="textarea" name="texto" id="texto" /><br>
+        </form>
+      </div>
     </div>
-    </div>
+  </div>
+
+  <div class="container-suma">
+    <h1>Suma hasta n</h1>
+    <label for="numberInput">Ingrese un número:</label>
+    <input type="number" id="numberInput">
+    <button onclick="sumar()">Sumar</button>
+    <p id="resultado"></p>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
   <script src="index.js"></script>
+  <script src="changeSubjet.js"></script>
 </body>
 
 </html>
